@@ -14,7 +14,7 @@
             <resolver>mvel</resolver>
             <identifier>new com.irshadrh.ApplyElectricityWIH()</identifier>
             <parameters/>
-            <name>ApplyElectricityPermit</name>
+            <name>ApplyElectricityWIH</name>
         </work-item-handler>
     </work-item-handlers>
     <environment-entries/>
