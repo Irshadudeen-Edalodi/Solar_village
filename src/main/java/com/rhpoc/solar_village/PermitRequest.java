@@ -15,8 +15,11 @@ public class PermitRequest implements java.io.Serializable {
 	@org.kie.api.definition.type.Label("Area (in sq feet)")
 	private java.lang.Integer area;
 
-	@org.kie.api.definition.type.Label(value = "email")
+	@org.kie.api.definition.type.Label("email")
 	private java.lang.String email;
+
+	@org.kie.api.definition.type.Label(value = "Request Id")
+	private java.lang.String requestId;
 
 	public PermitRequest() {
 	}
@@ -53,12 +56,22 @@ public class PermitRequest implements java.io.Serializable {
 		this.email = email;
 	}
 
+	public java.lang.String getRequestId() {
+		return this.requestId;
+	}
+
+	public void setRequestId(java.lang.String requestId) {
+		this.requestId = requestId;
+	}
+
 	public PermitRequest(java.lang.String name, java.lang.String address,
-			java.lang.Integer area, java.lang.String email) {
+			java.lang.Integer area, java.lang.String email,
+			java.lang.String requestId) {
 		this.name = name;
 		this.address = address;
 		this.area = area;
 		this.email = email;
+		this.requestId = requestId;
 	}
 
 }
