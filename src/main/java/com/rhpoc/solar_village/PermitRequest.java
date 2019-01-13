@@ -6,12 +6,47 @@ package com.rhpoc.solar_village;
 
 public class PermitRequest implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public PermitRequest() {
-    }
+	@org.kie.api.definition.type.Label(value = "Name")
+	private java.lang.String name;
+	@org.kie.api.definition.type.Label(value = "Address")
+	private java.lang.String address;
+	@org.kie.api.definition.type.Label(value = "Area (in sq feet)")
+	private java.lang.Integer area;
 
+	public PermitRequest() {
+	}
 
+	public java.lang.String getName() {
+		return this.name;
+	}
 
+	public void setName(java.lang.String name) {
+		this.name = name;
+	}
+
+	public java.lang.String getAddress() {
+		return this.address;
+	}
+
+	public void setAddress(java.lang.String address) {
+		this.address = address;
+	}
+
+	public java.lang.Integer getArea() {
+		return this.area;
+	}
+
+	public void setArea(java.lang.Integer area) {
+		this.area = area;
+	}
+
+	public PermitRequest(java.lang.String name, java.lang.String address,
+			java.lang.Integer area) {
+		this.name = name;
+		this.address = address;
+		this.area = area;
+	}
 
 }
