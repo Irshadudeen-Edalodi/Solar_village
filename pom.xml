@@ -45,6 +45,12 @@
       <version>7.11.0.Final-redhat-00003</version>
       <scope>provided</scope>
     </dependency>
+    <dependency>
+      <groupId>com.irshadrh</groupId>
+      <artifactId>NewSolarWIH</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
+      <scope>compile</scope>
+    </dependency>
   </dependencies>
   <build>
     <plugins>
