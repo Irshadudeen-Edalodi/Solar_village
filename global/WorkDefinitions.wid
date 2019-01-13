@@ -121,11 +121,11 @@
     [
     "name" : "GetStructuralStatusWIH",
     "parameters" : [
-       "electricAppId" : new StringDataType()
+       "structuralAppId" : new StringDataType()
 
     ],
     "results" : [
-        "GetStructuralStatusWIH" : new StringDataType(),
+        "structuralStatus" : new StringDataType(),
     ],
     "displayName" : "Get Structural permit Status",
     "icon" : "defaultservicenodeicon.png"
