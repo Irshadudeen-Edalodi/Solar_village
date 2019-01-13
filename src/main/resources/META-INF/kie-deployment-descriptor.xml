@@ -12,6 +12,18 @@
     <work-item-handlers>
         <work-item-handler>
             <resolver>mvel</resolver>
+            <identifier>new com.irshadrh.GetStructuralStatusWIH()</identifier>
+            <parameters/>
+            <name>GetStructuralStatusWIH</name>
+        </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new com.irshadrh.ApplyStructuralWIH()</identifier>
+            <parameters/>
+            <name>ApplyStructuralWIH</name>
+        </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
             <identifier>new com.irshadrh.ApplyElectricityWIH()</identifier>
             <parameters/>
             <name>ApplyElectricityWIH</name>
