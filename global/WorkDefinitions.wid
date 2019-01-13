@@ -104,7 +104,33 @@
     ],
     "displayName" : "Get Electricity Status",
     "icon" : "defaultservicenodeicon.png"
+  ],
+       [
+    "name" : "ApplyStructuralWIH",
+    "parameters" : [
+       "permitRequest" : new ObjectDataType()
+
+    ],
+    "results" : [
+        "structuralAppId" : new StringDataType(),
+    ],
+    "displayName" : "Apply Structural Permit",
+    "icon" : "defaultservicenodeicon.png"
+  ],
+  
+    [
+    "name" : "GetStructuralStatusWIH",
+    "parameters" : [
+       "electricAppId" : new StringDataType()
+
+    ],
+    "results" : [
+        "GetStructuralStatusWIH" : new StringDataType(),
+    ],
+    "displayName" : "Get Structural permit Status",
+    "icon" : "defaultservicenodeicon.png"
   ]
+   
    
 
 ]
