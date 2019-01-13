@@ -79,6 +79,19 @@
      "displayName" : "Decision Task",
      "icon" : "defaultdecisionicon.png",
      "category" : "Decision tasks"
-   ]
+   ],
+     [
+    "name" : "ApplyElectricityWIH",
+    "parameters" : [
+       "permitRequest" : new ObjectDataType()
+
+    ],
+    "results" : [
+        "electricAppId" : new StringDataType(),
+    ],
+    "displayName" : "Apply Electricity Permit",
+    "icon" : "defaultservicenodeicon.png"
+  ]
+   
 
 ]
