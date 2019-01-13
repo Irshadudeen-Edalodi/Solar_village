@@ -91,6 +91,19 @@
     ],
     "displayName" : "Apply Electricity Permit",
     "icon" : "defaultservicenodeicon.png"
+  ],
+  
+    [
+    "name" : "GetElectricStatusWIH",
+    "parameters" : [
+       "electricAppId" : new StringDataType()
+
+    ],
+    "results" : [
+        "electricStatus" : new StringDataType(),
+    ],
+    "displayName" : "Get Electricity Status",
+    "icon" : "defaultservicenodeicon.png"
   ]
    
 
