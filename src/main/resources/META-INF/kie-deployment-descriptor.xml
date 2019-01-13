@@ -16,6 +16,12 @@
             <parameters/>
             <name>ApplyElectricityWIH</name>
         </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new com.irshadrh.GetElectricStatusWIH()</identifier>
+            <parameters/>
+            <name>GetElectricStatusWIH</name>
+        </work-item-handler>
     </work-item-handlers>
     <environment-entries/>
     <configurations/>
