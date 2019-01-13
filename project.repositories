@@ -11,8 +11,24 @@
     <repository>
       <include>true</include>
       <metadata>
+        <id>redhat</id>
+        <url>https://maven.repository.redhat.com/ga/</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
         <id>jboss-plugins</id>
         <url>http://repository.jboss.org/nexus/content/groups/public-jboss/</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>rh-ga</id>
+        <url>https://maven.repository.redhat.com/ga/</url>
         <source>SETTINGS</source>
       </metadata>
     </repository>
@@ -35,8 +51,8 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>rh-ga</id>
-        <url>https://maven.repository.redhat.com/ga/</url>
+        <id>jboss-snapshot-plugins</id>
+        <url>http://repository.jboss.org/nexus/content/groups/public-jboss/</url>
         <source>SETTINGS</source>
       </metadata>
     </repository>
@@ -53,22 +69,6 @@
       <metadata>
         <id>jboss</id>
         <url>http://repository.jboss.org/nexus/content/groups/public-jboss/</url>
-        <source>SETTINGS</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>jboss-snapshot-plugins</id>
-        <url>http://repository.jboss.org/nexus/content/groups/public-jboss/</url>
-        <source>SETTINGS</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>redhat</id>
-        <url>https://maven.repository.redhat.com/ga/</url>
         <source>SETTINGS</source>
       </metadata>
     </repository>
