@@ -129,8 +129,33 @@
     ],
     "displayName" : "Get Structural permit Status",
     "icon" : "defaultservicenodeicon.png"
+  ],
+  
+  [
+    "name" : "RecindElectricalWIH",
+    "parameters" : [
+       "electricAppId" : new StringDataType()
+
+    ],
+    "results" : [
+        "electricRecindStatus" : new StringDataType(),
+    ],
+    "displayName" : "Recind Electrical Permit",
+    "icon" : "defaultservicenodeicon.png"
+  ],
+  
+   [
+    "name" : "RecindStructuralWIH",
+    "parameters" : [
+       "structuralAppId" : new StringDataType()
+
+    ],
+    "results" : [
+        "structuralRecindStatus" : new StringDataType(),
+    ],
+    "displayName" : "Recind structural Permit",
+    "icon" : "defaultservicenodeicon.png"
   ]
-   
    
 
 ]
