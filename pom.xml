@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.rhpoc</groupId>
   <artifactId>Solar_village</artifactId>
-  <version>1.0.22</version>
+  <version>1.0.23</version>
   <packaging>kjar</packaging>
   <name>Solar_village</name>
   <description></description>
